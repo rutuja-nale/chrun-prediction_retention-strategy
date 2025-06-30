@@ -2,7 +2,12 @@
 
 ## 📌 Project Overview
 
-This project identifies high-risk churn segments in an e-commerce environment and presents actionable retention strategies. We use machine learning to predict churn and Power BI to visualize insights that help improve customer loyalty.
+This project identifies high-risk churn segments in an e-commerce environment and presents actionable retention strategies. I have used machine learning to predict churn and Power BI to visualize insights that help improve customer loyalty.
+
+---
+
+## 🖊️ Problem Statement:
+Customer retention is more cost-effective than acquisition. The business wants to identify high-risk customers and design proactive retention campaigns to reduce churn rate by 10%
 
 ---
 
@@ -17,7 +22,7 @@ Customer retention is cheaper than acquisition. This project enables decision-ma
 - `Customer_ID`, `Sign_Up_Date`, `Last_Active_Date`
 - `Subscription_Plan`: Basic, Standard, Premium
 - `Monthly_Purchases`, `Total_Spend`, `Support_Tickets`
-- `Engagement_Score` (0–100)
+- `Engagement_Score`
 - `Churn` (Target variable)
 
 ---
@@ -41,7 +46,7 @@ Predictions were segmented into **Low**, **Medium**, and **High Risk** buckets.
   - Pie chart: Churned vs Active
   - Scatter: Spend vs Engagement
   - Table: Risk-based Recommendations
-- **Filters**: Subscription Plan, Risk Segment
+- **Filters**: Subscription Plan
 
 ---
 
@@ -53,5 +58,9 @@ Predictions were segmented into **Low**, **Medium**, and **High Risk** buckets.
 - Jupyter Notebook
 
 ---
+## 📓 Insghts Deduced:
+ 1. 35% of churned users had < 5 sessions in last 30 days
+ 2. Users on Basic Plan churn 2.5x more than Premium
+ 3. Retention campaign targeted at high-risk saved $X in revenue
 
-## 📁 Repository Structure
+---
